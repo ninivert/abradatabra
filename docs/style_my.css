@@ -1,3 +1,60 @@
-.planche {
+body {
+	background-color: #ffd96a;
+}
+
+.my-logo {
+	max-width: 250px;
+	width: 100%;
+}
+
+@media (min-width: 772px) {
+	aside {
+		position: sticky;
+		top: 0;
+		z-index: 1020;
+	}
+}
+
+@media (min-width: 992px) {
+	.my-fig {
+		margin-left: 1em;
+		float: right !important;
+	}
+}
+
+.my-fig {
 	display: block;
+}
+
+.my-explanations {
+	max-width: 820px;
+}
+
+.my-words {
+	max-width: 500px;
+}
+
+hr {
+	height: 1px;
+	background: #523e00;
+	border: none;
+	outline: none;
+	position: relative;
+	width: 50%;
+	margin: 3em auto;
+	opacity: 1;
+}
+
+hr:before {
+	/* TODO : a cute svg graph */
+    content: '';
+	background-image: url(assets//favicon/favicon-32x32.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: #ffd96a;
+    padding: 0.5em 3em;
+    transform: translate(-50%, -50%);
 }

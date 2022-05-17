@@ -5,12 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="B Moulin, Z Agnaou, N Vadot">
-	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-	<meta name="generator" content="Hugo 0.98.0">
 	<title>Abradatabra !</title>
 	
 	<link href="bootstrap.min.css" rel="stylesheet">
-	<link href="style_template.css" rel="stylesheet">
+	<!-- <link href="style_template.css" rel="stylesheet"> -->
 	<link href="style_my.css" rel="stylesheet">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -19,72 +17,104 @@
 	<link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 
-<body class="d-flex text-center text-white bg-dark">
-	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-		<header class="mb-auto">
-			<div>
-				<h3 class="float-md-start mb-0">
-					<img src="assets/logo.png" class="img-fluid" alt="">
-				</h3>
-				<nav class="nav nav-masthead justify-content-center float-md-end">
-					<a class="nav-link fw-bold py-1 px-0" href="#planches">Planches</a>
-					<a class="nav-link fw-bold py-1 px-0" href="#about">A propos</a>
-					<a class="nav-link fw-bold py-1 px-0" href="#contact">Contact</a>
-					<a class="nav-link fw-bold py-1 px-0" href="#links">Liens</a>
+<body>
+	<div class="container-sm mb-5">
+		<div class="row align-items-start">
+			<aside class="col-md-auto pt-md-5">
+				<a href="#" class="navbar-brand">
+					<img src="assets/logo_512.png" alt="abradatabra" class="my-logo d-inline-block align-text-top">
+				</a>
+				<nav class="nav nav-pills flex-column">
+					<a href="#home" class="nav-link">Home</a>
+					<a href="#comics" class="nav-link">Planches</a>
+					<nav class="nav flex-column">
+						<a href="#comic1" class="nav-link ms-3">Planche 1</a>
+						<a href="#comic2" class="nav-link ms-3">Planche 2</a>
+						<a href="#comic3" class="nav-link ms-3">Planche 3</a>
+					</nav>
+					<a href="#links" class="nav-link">Liens</a>
 				</nav>
-			</div>
-		</header>
+			</aside>
+			<main class="col pt-md-5">
+				<section id="home">
+					<h1 class="display-1 mt-0">coucou</h1>
+	
+					<p class="fs-4">on a fait une bd</p>
+
+					<!-- <img src="assets/faces.png" alt="" class="img-fluid"> -->
+				</section>
+
+				<hr>
 		
-		<main class="px-3">
-			<h1>Abradatabra !</h1>
-			<p class="lead">Une bd vulga blablabla</p>
-			<p class="lead">Voir la planche...
-				<a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">planche 1</a>
-				<a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">planche 2</a>
-				<a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">planche 3</a>
-			</p>
-		</main>
-		
-		<section id="planches">
-			<div class="planche">
-				<h2>Planche 1</h2>
-				<img src="assets/projet_vulga_13052022_0904.png" class="img-fluid" alt="">
+				<section id="comics">
+					<section id="comic1">
+						<h2>Planche 1</h2>
+						<figure class="figure">
+							<img src="assets/projet_vulga_13052022_0904.png" class="figure-img img-fluid" alt="">
+						</figure>
+						
+						<div class="my-explanations">
+							<figure class="figure my-fig">
+								<img src="assets/Screenshot from 2022-05-17 20-43-53.png" class="figure-img rounded img-fluid">
+								<figcaption class="figure-caption">A caption for the above image.</figcaption>
+							</figure>
+							<div class="my-words clearfix">
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+							</div>
+						</div>
 				
+						<a href="https://github.com/ninivert/abradatabra">Source code</a>
+					</section>
 
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+					<hr>
 
-				<a href="https://github.com/ninivert/abradatabra">Source code</a>
-			</div>
-			
-			<div class="planche">
-				<h2>Planche 2</h2>
-				<img src="https://placehold.co/600x1000" class="img-fluid" alt="">
+					<section id="comic2">
+						<h2>Planche 2</h2>
 
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+						<figure class="figure">
+							<img src="https://placehold.co/600x1000" class="img-fluid" alt="">
+						</figure>
 
-				<a href="https://github.com/ninivert/abradatabra">Source code</a>
-			</div>
-			
-			<div class="planche">
-				<h2>Planche 3</h2>
-				<img src="https://placehold.co/600x1000" class="img-fluid" alt="">
+						<div class="my-explanations">
+							<div class="my-words">
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+							</div>
+						</div>
 
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+						<a href="https://github.com/ninivert/abradatabra">Source code</a>
+					</section>
 
-				<a href="https://github.com/ninivert/abradatabra">Source code</a>
-			</div>
+					<hr>
 
-		</section>
-		
-		<section id="about">
-			<h2>A propos</h2>
-			<p>wo c tres interessant</p>
-		</section>
-		
-		<footer id="links" class="mt-auto text-white-50">
-			proute
-			<p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-		</footer>
+					<section id="comic3">
+						<h2>Planche 3</h2>
+
+						<figure class="figure">
+							<img src="https://placehold.co/600x1000" class="img-fluid" alt="">
+						</figure>
+
+						<div class="my-explanations">
+							<div class="my-words">
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+							</div>
+						</div>
+
+						<a href="https://github.com/ninivert/abradatabra">Source code</a>
+					</section>
+				</section>
+
+				<hr>
+
+				<footer id="links">
+					un pied 
+				</footer>
+			</main>
+		</div>
 	</div>
+	
 </body>
+
 </html>
