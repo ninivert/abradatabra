@@ -1,5 +1,6 @@
 body {
 	background-color: #ffd96a;
+	/* font-family: "Latin Modern Roman", serif; */
 }
 
 .my-logo {
@@ -48,13 +49,13 @@ hr {
 hr:before {
 	/* TODO : a cute svg graph */
     content: '';
-	background-image: url(assets//favicon/favicon-32x32.png) !important;
+	background-image: url(assets/faces-48x48.png) !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
     position: absolute;
     top: 0;
     left: 50%;
     background: #ffd96a;
-    padding: 0.5em 3em;
+    padding: 2em 3em;
     transform: translate(-50%, -50%);
 }
