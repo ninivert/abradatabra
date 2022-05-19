@@ -47,7 +47,6 @@ hr {
 }
 
 hr:before {
-	/* TODO : a cute svg graph */
     content: '';
 	background-image: url(assets/faces-48x48.png) !important;
 	background-repeat: no-repeat !important;
