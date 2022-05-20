@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22.488966mm"
+   height="18.400541mm"
+   viewBox="0 0 22.488966 18.400541"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="151"
+       y="168"
+       width="19.000002"
+       height="14.000002"
+       id="rect28806" />
+    <rect
+       x="151"
+       y="168"
+       width="19.000002"
+       height="14.000002"
+       id="rect28806-4" />
+    <rect
+       x="151"
+       y="168"
+       width="19.000002"
+       height="14.000002"
+       id="rect28806-5" />
+    <rect
+       x="151"
+       y="168"
+       width="19.000002"
+       height="14.000002"
+       id="rect28806-0" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-35.173586,-38.190804)">
+    <g
+       id="g413" />
+    <g
+       id="g58"
+       transform="matrix(0,1,1,0,1.481069,-1.4810693)">
+      <circle
+         style="fill:#1a1a1a;fill-rule:evenodd;stroke-width:0.529166"
+         id="path31-1-9"
+         cx="54.504166"
+         cy="40.05225"
+         r="3.5682483" />
+      <rect
+         style="fill:#1a1a1a;stroke-width:0.558215"
+         id="rect77-5-6-9"
+         width="3.5682483"
+         height="11.209983"
+         x="52.720043"
+         y="44.9715" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,0.26458333,0.26458333,0,8.7581221,-6.3246785)"
+         id="text28804-79"
+         style="font-size:5.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect28806-0)"><tspan
+           x="151"
+           y="175.44531"
+           id="tspan516"><tspan
+             style="font-size:8px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Normal'"
+             id="tspan512">×</tspan><tspan
+             style="font-size:8px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Normal'"
+             id="tspan514">4</tspan></tspan></text>
+      <circle
+         style="fill:#1a1a1a;fill-rule:evenodd;stroke-width:0.264583"
+         id="path31"
+         cx="41.455997"
+         cy="41.872128"
+         r="1.7841241" />
+      <rect
+         style="fill:#1a1a1a;stroke-width:0.279098"
+         id="rect77"
+         width="3.5680001"
+         height="2.8024957"
+         x="39.671997"
+         y="45" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,0.26458333,0.26458333,0,-4.2957313,-6.1231404)"
+         id="text28804"
+         style="font-size:5.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect28806)"><tspan
+           x="151"
+           y="175.44531"
+           id="tspan522"><tspan
+             style="font-size:8px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Normal'"
+             id="tspan518">×</tspan><tspan
+             style="font-size:8px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Normal'"
+             id="tspan520">1</tspan></tspan></text>
+      <circle
+         style="fill:#1a1a1a;fill-rule:evenodd;stroke-width:0.374177"
+         id="path31-1"
+         cx="47.08802"
+         cy="41.133118"
+         r="2.5231326" />
+      <rect
+         style="fill:#1a1a1a;stroke-width:0.394717"
+         id="rect77-5"
+         width="3.5682483"
+         height="5.6049914"
+         x="45.303898"
+         y="45" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0,0.26458333,0.26458333,0,1.3440425,-6.3153767)"
+         id="text28804-7"
+         style="font-size:5.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect28806-4)"><tspan
+           x="151"
+           y="175.44531"
+           id="tspan528"><tspan
+             style="font-size:8px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Normal'"
+             id="tspan524">×</tspan><tspan
+             style="font-size:8px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Normal'"
+             id="tspan526">2</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
