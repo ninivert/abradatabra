@@ -61,6 +61,7 @@ hr {
 	width: 50%;
 	margin: 3em auto;
 	opacity: 1;
+	overflow: visible;  /* show the :before also in Chrome and Safari */
 }
 
 hr:before {
