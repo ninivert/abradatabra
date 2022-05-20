@@ -29,8 +29,8 @@
 					<a href="#comics" class="nav-link">Episodes</a>
 					<nav class="nav flex-column">
 						<a href="#comic1" class="nav-link ms-3">1 - Tout un fromage</a>
-						<a href="#comic2" class="nav-link ms-3">Episode 2</a>
-						<a href="#comic3" class="nav-link ms-3">Episode 3</a>
+						<a href="#comic2" class="nav-link ms-3">2 - Schifahren sur une pente glissante</a>
+						<a href="#comic3" class="nav-link ms-3">3 - [Coming soon !]</a>
 					</nav>
 					<a href="#refs" class="nav-link">References</a>
 					<a href="#links" class="nav-link">Liens</a>
@@ -50,11 +50,12 @@
 				<section id="comics">
 					<section id="comic1">
 						<h2>Episode 1 - Tout un fromage</h2>
-						<figure class="figure">
-							<a href="assets/comics/comic1.png" target="blank">
-								<img src="assets/comics/comic1-1080.webp" class="figure-img img-fluid" alt="">
-							</a>
-						</figure>
+						<a href="assets/comics/comic1_page1.png" target="blank">
+							<picture>
+								<source srcset="assets/comics/comic1_page1-1080.webp">
+								<img src="assets/comics/comic1_page1-1080.png" class="figure-img img-fluid" alt="">
+							</picture>
+						</a>
 						
 						<div class="my-explanations">
 							<div class="clearfix">
@@ -64,8 +65,11 @@
 							</div>
 							<h3>Comment comparer efficacement des pourcentages ?</h3>
 							<div class="clearfix">
-								<figure class="figure my-fig">
-									<img src="assets/figures/comic1/case1-400.webp" class="figure-img rounded img-fluid">
+								<figure class="my-fig">
+									<picture>
+										<source srcset="assets/figures/comic1/case1-400.webp">
+										<img src="assets/figures/comic1/case1-400.png" class="figure-img rounded img-fluid">
+									</picture>
 									<figcaption class="figure-caption">Raymonde visualise l’évolution du nombre d'accidents sur trois camemberts.</figcaption>
 								</figure>
 								<div class="my-words">
@@ -75,8 +79,11 @@
 								</div>
 							</div>
 							<div class="clearfix">
-								<figure class="figure my-fig">
-									<img src="assets/figures/comic1/fig10.svg" class="figure-img rounded img-fluid">
+								<figure class="my-fig">
+									<picture>
+										<source srcset="assets/figures/comic1/fig10.svg">
+										<img src="assets/figures/comic1/fig10-400.png" class="figure-img rounded img-fluid">
+									</picture>
 									<figcaption class="figure-caption">Evolution de la surface perçue en fonction de la surface réelle. Plus la surface est grande, plus on tendance à la sous-estimer.</figcaption>
 								</figure>
 								<div class="my-words">
@@ -85,8 +92,11 @@
 								</div>
 							</div>
 							<div class="clearfix">
-								<figure class="figure my-fig">
-									<img src="assets/figures/comic1/area_bias.svg" width="200px" class="figure-img rounded img-fluid">
+								<figure class="my-fig">
+									<picture>
+										<source srcset="assets/figures/comic1/area_bias.svg">
+										<img src="assets/figures/comic1/area_bias-400.png" width="200px" class="figure-img rounded img-fluid">
+									</picture>
 									<figcaption class="figure-caption">La comparaison de surfaces entre disques est plus difficile qu’entre des rectangles de base égale. Dans chaque ligne, le disque et le rectangle ont la même surface, et celle-ci est multipliée par deux dans la ligne en-dessous.</figcaption>
 								</figure>
 								<div class="my-words">
@@ -96,10 +106,19 @@
 							</div>
 							<h3>Faut-il abandonner le camembert ?</h3>
 							<div class="clearfix">
-								<figure class="figure my-fig">
-									<img src="assets/figures/comic1/fig12.svg" class="figure-img rounded img-fluid">
-									<img src="assets/figures/comic1/fig13.svg" class="figure-img rounded img-fluid">
-									<img src="assets/figures/comic1/fig14.svg" class="figure-img rounded img-fluid">
+								<figure class="my-fig">
+									<picture>
+										<source srcset="assets/figures/comic1/fig12.svg">
+										<img src="assets/figures/comic1/fig12-400.png" class="figure-img rounded img-fluid">
+									</picture>
+									<picture>
+										<source srcset="assets/figures/comic1/fig13.svg">
+										<img src="assets/figures/comic1/fig13-400.png" class="figure-img rounded img-fluid">
+									</picture>
+									<picture>
+										<source srcset="assets/figures/comic1/fig14.svg">
+										<img src="assets/figures/comic1/fig14-400.png" class="figure-img rounded img-fluid">
+									</picture>
 									<figcaption class="figure-caption">Trois différentes manières de visualiser les mêmes données fictives représentant sept catégories évoluant sur quatre jours. Chaque camembert a une surface proportionnelle à la valeur totale des données qui le compose. Le diagramme en bande (et sa version rempliee) permet de mieux comparer l'évolution entre chaque jour, et le camembert permet de mieux comparer entre catégories d'un même jour.</figcaption>
 								</figure>
 								<div class="my-words">
@@ -108,33 +127,121 @@
 									<p>Ce que le camembert ne permet pas de faire, c’est des comparaisons entre jeux de données. Les positions des parties en désarroi forcent les yeux à sauter de camembert en camembert, tout en cherchant où se situe la partie à comparer. Dans ce type de situation, il est préférable d’utiliser un diagramme à bandes, qui permet à la fois d’afficher le total (si nécessaire), et de tracer des lignes entre les étages pour guider la lecture. Ou encore, si la situation s’y prête et l’encre n’est pas une limitation, on peut remplir entre les guides de lectures.</p>
 								</div>
 							</div>
+							<h3>Points clés</h3>
+							<div class="my-words">
+								<ul>
+									<li>Attention lors de la comparaison de pourcentages entre jeux de données, prêter attention aux valeurs absolues.</li>
+									<li>On a du mal à correctement estimer les surfaces. Utiliser des marqueurs linéaires (rectangulaires) plutôt que circulaires pour indiquer une magnitude.</li>
+									<li>Pour comparer des pourcentages dans un même jeu de données, un camembert permet une meilleure estimation.</li>
+									<li>Pour comparer entre jeux de données, utiliser un diagramme à bandes (avec ou sans guides de lecture).</li>
+								</ul>
+								<p><a href="https://github.com/ninivert/abradatabra/blob/master/graphs/comic1/comic1.ipynb">Lien vers les données brutes et génération de graphes pour l'épisode 1.</a></p>
+							</div>
 						</div>
 				
-						<p><a href="https://github.com/ninivert/abradatabra/blob/master/graphs/comic1/comic1.ipynb">Lien vers les données brutes et génération de graphes pour l'épisode 1.</a></p>
 					</section>
 
 					<hr>
 
 					<section id="comic2">
-						<h2>Planche 2</h2>
+						<h2>Episode 2 - Schifahren sur une pente glissante</h2>
 
-						<figure class="figure">
-							<img src="https://placehold.co/600x1000" class="img-fluid" alt="">
-						</figure>
+						<a href="assets/comics/comic2_page1.png" target="blank">
+							<picture>
+								<source srcset="assets/comics/comic2_page1-1080.webp">
+								<img src="assets/comics/comic2_page1-1080.png" class="figure-img img-fluid" alt="">
+							</picture>
+						</a>
+						<a href="assets/comics/comic2_page2.png" target="blank">
+							<picture>
+								<source srcset="assets/comics/comic2_page2-1080.webp">
+								<img src="assets/comics/comic2_page2-1080.png" class="figure-img img-fluid" alt="">
+							</picture>
+						</a>
 
 						<div class="my-explanations">
+							<div class="clearfix">
+								<div class="my-words">
+									<p><i>Cette planche aborde des aspects vus souvent dans des thèmes politisés. Ce choix est motivé par le fait que la politique est un domaine où les graphiques sont omniprésents et utilisés pour manipuler ou orienter l'opinion en faveur du candidat.</i></p>
+									<p><i>Pour contexte, il s'agit des élections municipales du village. D'un côté, le personnage récurrent Raymonde, vu dans le premier épisode, et un nouveau personnage Schifahren, qui vient avec le projet de construire des pistes de ski artificielles accessibles en toute saison. Afin d'avoir une certaine continuité entre les épisodes, nous avons choisi que le nouveau candidat souhaite remplacer les alpages pour mettre en œuvre son plan. Il utilise trois manipulations graphiques trompeuses pour accentuer ses propos.</i></p>
+								</div>
+							</div>
+							<h3>Des axes qui commencent à zéro et une pente trompeuse</h3>
+							<div class="clearfix">
+								<figure class="my-fig">
+									<picture>
+										<source srcset="assets/figures/comic2/fig3-400.webp">
+										<img src="assets/figures/comic2/fig3-400.png" class="figure-img rounded img-fluid">
+									</picture>
+									<picture>
+										<source srcset="assets/figures/comic2/fig4-400.webp">
+										<img src="assets/figures/comic2/fig4-400.png" class="figure-img rounded img-fluid">
+									</picture>
+									<figcaption class="figure-caption">Exemple de manipulation où la proportionalité visuelle n'est pas respectée. Tiré de <a href="#Cairo_2019">Cairo A. (2019)</a>.</figcaption>
+								</figure>
+								<div class="my-words">
+									<p>Pour ce premier point, une situation réelle a servi d'inspiration. En juillet 2012, Fox News a rapporté que le président Barack Obama prévoyait de maintenir les réductions des taux d'imposition fédéraux beaucoup plus élevés du président George W. Bush, qui expirent à la fin de 2013. Pour présenter les chiffres, un graphique a été montré à la télévision. Le graphique suivant est une reproduction, identique à l'original, qui se trouve dans <a href="#Cairo_2019">How charts lie: getting smarter about visual information</a> de Cairo. Notez que l'augmentation des impôts était d'environ 5 %, mais que les barres ont été présentées d'une manière qui les a exagérées.</p>
+									<p>La personne qui a conçu ce graphique a enfreint un principe de base de la conception de graphiques : si les chiffres présentés sont associés à la longueur ou à la hauteur des objets - des barres, dans ce cas - la longueur ou la hauteur doit être proportionnelle à ces chiffres. Il est donc conseillé de fixer la ligne de base du graphique à zéro.</p>
+									<p>Cette pratique consistant à ne pas faire commencer les axes à zéro nous permet d'exagérer l'ampleur visuelle d'une différence, même si elle n'est pas significative.</p>
+									<p>Pour intégrer ce concept dans notre bande dessinée, nous avons préféré utiliser une ligne continue plutôt que des barres, car nous voulions combiner plusieurs concepts.</p>
+								</div>
+							</div>
+							<h3>Omission des données</h3>
+							<div class="clearfix">
+								<figure class="my-fig">
+									<picture>
+										<source srcset="assets/figures/comic2/fig1-400.webp">
+										<img src="assets/figures/comic2/fig1-400.png" class="figure-img rounded img-fluid">
+									</picture>
+									<picture>
+										<source srcset="assets/figures/comic2/fig2-400.webp">
+										<img src="assets/figures/comic2/fig2-400.png" class="figure-img rounded img-fluid">
+									</picture>
+									<figcaption class="figure-caption">Exemple de manipulation où des données sont omises. Tiré de <a href="#Cairo_2019">Cairo A. (2019)</a>.</figcaption>
+								</figure>
+								<div class="my-words">
+									<p>Pour la deuxième déconstruction, nous nous sommes à nouveau inspirés d'un graphique présenté dans <a href="#Cairo_2019">Cairo A. (2019)</a>. Le graphique représente les taux d'homicides aux États-Unis (meurtres annuels pour 100 000 personnes) de 1960 à 2014.</p>
+									<p>Le graphique a été réalisé par Paul Krugman, un économiste et lauréat du prix Nobel, chroniqueur pour le New York Times. Une chose étonnante à constater est que le graphique s'arrête en 2014 alors que sa publication date de 2018. En approfondissant la question, voici ce qui en ressort. Plusieurs fois pendant la campagne présidentielle de 2016, mais aussi pendant sa première année de mandat, Donald Trump a mentionné une supposée hausse brutale des crimes violents aux États-Unis, en se concentrant notamment sur les meurtres. Il l'a reproché aux immigrants sans papiers, une affirmation qui a été démentie à plusieurs reprises. Krugman a affirmé que Trump avait tort et a utilisé à juste titre le graphique pour étayer ses propos. Examinons maintenant le graphique après avoir ajouté les quatre années manquantes.</p>
+									<p>Si le taux en 1970 est beaucoup plus faible qu'en 1990, on constate une augmentation dans les trois dernières années du graphique. Cette omission n'est pas anodine et est susceptible d'induire le lecteur en erreur. Il convient également de noter qu'il a été difficile de trouver exactement les données utilisées pour étendre le premier graphique, de sorte que les données ont été agrégées à partir du FBI, qui disposait de statistiques solides et précises pour 2016 et de chiffres préliminaires pour 2017. Ce graphique réel a servi de base à notre deuxième manipulation dans la caricature pour montrer que la tendance de la consommation de fromage est à la hausse, et que Schifaren n'a sélectionné que la courte période avec une tendance à la baisse.</p>
+								</div>
+							</div>
+							<h3>Axes inversés</h3>
+							<div class="clearfix">
+								<figure class="my-fig">
+									<picture>
+										<source srcset="assets/figures/comic2/fig5-400.webp">
+										<img src="assets/figures/comic2/fig5-400.png" class="figure-img rounded img-fluid">
+									</picture>
+									<figcaption class="figure-caption">Exemple de manipulation où des l'axe vertical est inversé.</figcaption>
+								</figure>
+								<div class="my-words">
+									<p>Pour ce dernier point, nous nous sommes inspirés du graphique suivant. Prenez un moment pour deviner ce qui ne va pas. A première vue, rien ne cloche, nous voyons un graphique qui monte et descend dans le sens où il y a beaucoup plus de morts par armes à feu dans les années 80 que maintenant. Les plus observateurs d'entre vous doutent déjà que cela ait quelque chose à voir avec la zone rouge représentée, peut-être certains auront-ils pris le temps de lire les chiffres écrits : on passe de 873 à 721 meurtres. Les axes sont ensuite inversés et regardons maintenant le tableau réel. Nous voyons que le nombre de décès a diminué. Nous avons donc pris ce graphique et l'avons intégré à notre histoire.</p>
+								</div>
+							</div>
+							<h3>Points clés</h3>
 							<div class="my-words">
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
+								<ul>
+									<li>
+										Prendre le temps de bien regarder
+										<ul>
+											<li>L'origine et limites des axes</li>
+											<li>La direction des axes</li>
+											<li>Est-ce-que les marquages sont également espacés ?</li>
+											<li>Les données ont-elles l'air tronquées ou incomplètes ?</li>
+										</ul>
+									</li>
+									<li>Garder un regard critique sur les données et se rappeler qu'un graphe sert souvent pour appuyer un argument, et est donc rarement neutre ou objectif.</li>
+									<li>Être conscients que des graphes mal faits sont présents partout dans notre quotidien.</li>
+								</ul>
+								<a href="https://github.com/ninivert/abradatabra">Lien vers les données brutes et génération de graphes pour l'épisode 2.</a>
 							</div>
 						</div>
-
-						<a href="https://github.com/ninivert/abradatabra">Source code</a>
 					</section>
 
 					<hr>
 
 					<section id="comic3">
-						<h2>Planche 3</h2>
+						<h2>Episode 3 - [Coming soon !]</h2>
 
 						<figure class="figure">
 							<img src="https://placehold.co/600x1000" class="img-fluid" alt="">

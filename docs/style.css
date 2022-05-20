@@ -4,6 +4,10 @@ body {
 	/* font-family: "Latin Modern Roman", serif; */
 }
 
+aside {
+	max-width: 250px;
+}
+
 .my-logo {
 	max-width: 250px;
 	width: 100%;
@@ -26,10 +30,11 @@ body {
 
 .my-fig {
 	display: block;
+	min-width: 200px;
 	max-width: 400px;
 }
 
-.my-fig > img {
+.my-fig picture, .my-fig img {
 	display: block;
 	margin: auto;
 	margin-bottom: 0.5em;
