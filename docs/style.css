@@ -1,7 +1,8 @@
-body {
-	/* background-color: #FFDB70; */
-	background-color: #FFE699;
-	/* font-family: "Latin Modern Roman", serif; */
+:root {
+	--bs-link-color: #B33F62;
+	--bs-link-hover-color: #F9564F;
+	--bs-body-bg: #ffe699;
+	--bs-body-color: #0F111A;
 }
 
 aside {
@@ -30,8 +31,7 @@ aside {
 
 .my-fig {
 	display: block;
-	min-width: 200px;
-	max-width: 400px;
+	width: clamp(200px, 100%, 400px);
 }
 
 .my-fig picture, .my-fig img {
@@ -75,4 +75,21 @@ hr:before {
     background: #FFE699;
     padding: 2em 3em;
     transform: translate(-50%, -50%);
+}
+
+#links a {
+	text-align: center;
+	width: 100%;
+}
+
+#links svg {
+	display: block;
+	margin: auto;
+	width: 32px;
+	height: 32px;
+}
+
+#links span {
+	display: block;
+	margin-top: 0.5em;
 }
