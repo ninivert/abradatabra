@@ -93,3 +93,7 @@ hr:before {
 	display: block;
 	margin-top: 0.5em;
 }
+
+.blockquote {
+	font-size: 1em;
+}
