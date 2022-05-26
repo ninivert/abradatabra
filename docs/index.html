@@ -10,7 +10,7 @@
 	<link href="bootstrap.min.css" rel="stylesheet">
 	<!-- <link href="style_template.css" rel="stylesheet"> -->
 	<link href="style.css" rel="stylesheet">
-
+	
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -42,14 +42,14 @@
 			<main class="col pt-md-5">
 				<section id="home">
 					<h1 class="display-1 mt-0">coucou</h1>
-	
+					
 					<p class="fs-4">on a fait une bd</p>
-
+					
 					<!-- <img src="assets/faces.png" alt="" class="img-fluid"> -->
 				</section>
-
+				
 				<hr>
-		
+				
 				<section id="comics">
 					<section id="comic1">
 						<h2>Episode 1 - Tout un fromage</h2>
@@ -109,7 +109,124 @@
 							</div>
 							<h3>Faut-il abandonner le camembert ?</h3>
 							<div class="clearfix">
+								<div class="my-words">
+									<p>Faut-il pour autant abandonner le camembert ? Prenons un exemple de données fictives, par exemple celles dans le tableau ci-dessous. On pourrait imaginer que ces données correspondent aux vente journalières de différentes marques de glaces dans un magasin de votre choix. Comment représenter ces données pour qu'on puisse les comprendre intuitivement ?</p>
+								</div>
+								<table class="table table-striped">
+									<thead>
+										<tr>
+											<th></th>
+											<th>cat. 1</th>
+											<th>cat. 2</th>
+											<th>cat. 3</th>
+											<th>cat. 4</th>
+											<th>cat. 5</th>
+											<th>cat. 6</th>
+											<th>cat. 7</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>jour 1</th>
+											<td>9</td>
+											<td>6</td>
+											<td>5</td>
+											<td>2</td>
+											<td>2</td>
+											<td>1</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<th>jour 2</th>
+											<td>9</td>
+											<td>6</td>
+											<td>7</td>
+											<td>3</td>
+											<td>5</td>
+											<td>3</td>
+											<td>1</td>
+										</tr>
+										<tr>
+											<th>jour 3</th>
+											<td>10</td>
+											<td>7</td>
+											<td>10</td>
+											<td>3</td>
+											<td>7</td>
+											<td>4</td>
+											<td>5</td>
+										</tr>
+										<tr>
+											<th>jour 4</th>
+											<td>12</td>
+											<td>10</td>
+											<td>11</td>
+											<td>8</td>
+											<td>9</td>
+											<td>5</td>
+											<td>5</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="clearfix">
 								<figure class="my-fig">
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th></th>
+												<th>cat. 1 (% jour)</th>
+												<th>cat. 2 (% jour)</th>
+												<th>cat. 3 (% jour)</th>
+												<th>cat. 4 (% jour)</th>
+												<th>cat. 5 (% jour)</th>
+												<th>cat. 6 (% jour)</th>
+												<th>cat. 7 (% jour)</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th>jour 1</th>
+												<td>36</td>
+												<td>24</td>
+												<td>20</td>
+												<td>8</td>
+												<td>8</td>
+												<td>4</td>
+												<td>0</td>
+											</tr>
+											<tr>
+												<th>jour 2</th>
+												<td>26</td>
+												<td>18</td>
+												<td>21</td>
+												<td>9</td>
+												<td>15</td>
+												<td>9</td>
+												<td>3</td>
+											</tr>
+											<tr>
+												<th>jour 3</th>
+												<td>22</td>
+												<td>15</td>
+												<td>22</td>
+												<td>7</td>
+												<td>15</td>
+												<td>9</td>
+												<td>11</td>
+											</tr>
+											<tr>
+												<th>jour 4</th>
+												<td>20</td>
+												<td>17</td>
+												<td>18</td>
+												<td>13</td>
+												<td>15</td>
+												<td>8</td>
+												<td>8</td>
+											</tr>
+										</tbody>
+									</table>
 									<picture>
 										<source srcset="assets/figures/comic1/fig12.svg">
 										<img src="assets/figures/comic1/fig12-400.png" class="figure-img img-fluid">
@@ -122,12 +239,16 @@
 										<source srcset="assets/figures/comic1/fig14.svg">
 										<img src="assets/figures/comic1/fig14-400.png" class="figure-img img-fluid">
 									</picture>
-									<figcaption class="figure-caption">Trois différentes manières de visualiser les mêmes données fictives représentant sept catégories évoluant sur quatre jours. Chaque camembert a une surface proportionnelle à la valeur totale des données qui le compose. Le diagramme en bande (et sa version rempliee) permet de mieux comparer l'évolution entre chaque jour, et le camembert permet de mieux comparer entre catégories d'un même jour.</figcaption>
+									<picture>
+										<source srcset="assets/figures/comic1/fig_legends.svg">
+										<img src="assets/figures/comic1/fig_legends-400.png" class="figure-img img-fluid" style="max-width: 200px;">
+									</picture>
+									<figcaption class="figure-caption">Quatre différentes manières de visualiser les mêmes données fictives. Une table montrant les pourcentages chaque jour (note : les pourcentages ne s'ajoutent pas à 100 en raison d'arrondis. Il existe des algorithmes pour y remédier, non implémentés ici.). Chaque camembert a une surface proportionnelle à la valeur totale des données qui le compose. Le diagramme en bande (et sa version rempliee) permet de mieux comparer l'évolution entre chaque jour, et le camembert permet de mieux comparer entre catégories d'un même jour.</figcaption>
 								</figure>
 								<div class="my-words">
-									<p>Faut-il pour autant abandonner le camembert ? Edward Tufte explique dans le chapitre 8 de <a href="#Tufte_2007">The Visual Display of quantitative Information</a> que les camemberts ont une faible densité de données, et qu'il est préférable d’utiliser un tableau, plus précis, pour présenter des petits jeux de données. Pour des plus grands jeux de données, un diagramme à bandes est recommandé.</p>
+									<p>Edward Tufte explique dans le chapitre 8 de <a href="#Tufte_2007">The Visual Display of quantitative Information</a> que les camemberts ont une faible densité de données, et qu'il est préférable d’utiliser un tableau, plus précis, pour présenter des petits jeux de données. Pour des plus grands jeux de données, un diagramme à bandes est recommandé.</p>
 									<p>Cependant, selon l’étude <a href="#Spence_1991">Displaying proportions and percentages</a> de Spence et Lewandowsky, les camemberts sont légèrement plus aptes que les diagrammes à bandes quand il s’agit de faire des comparaisons (groupées ou non) dans un jeu de données ; et cet effet est d’autant plus prononcé que le jeu de données est grand. Les tableaux, bien que précis, ne permettent pas d’exploiter son intuition géométrique, et ressortent inférieurs dans ce contexte.</p>
-									<p>Ce que le camembert ne permet pas de faire, c’est des comparaisons entre jeux de données. Les positions des parties en désarroi forcent les yeux à sauter de camembert en camembert, tout en cherchant où se situe la partie à comparer. Dans ce type de situation, il est préférable d’utiliser un diagramme à bandes, qui permet à la fois d’afficher le total (si nécessaire), et de tracer des lignes entre les étages pour guider la lecture. Ou encore, si la situation s’y prête et l’encre n’est pas une limitation, on peut remplir entre les guides de lectures.</p>
+									<p>Ce que le camembert ne permet pas de faire, c’est des comparaisons entre jeux de données. Les positions des parties en désarroi forcent les yeux à sauter de camembert en camembert, tout en cherchant où se situe la partie à comparer. Dans ce type de situation, il est préférable d’utiliser un diagramme à bandes, qui permet à la fois d’afficher le total (si nécessaire), et de tracer des lignes entre les étages pour guider la lecture. Ou encore, si la situation s’y prête et l’encre n’est pas une limitation, on peut remplir entre les guides de lectures.</p>							  
 								</div>
 							</div>
 							<h3>Points clés</h3>
@@ -141,14 +262,14 @@
 								<p><a href="https://github.com/ninivert/abradatabra/blob/master/graphs/comic1/comic1.ipynb">Lien vers les données brutes et génération de graphes pour l'épisode 1.</a></p>
 							</div>
 						</div>
-				
+						
 					</section>
-
+					
 					<hr>
-
+					
 					<section id="comic2">
 						<h2>Episode 2 - Schifahren sur une pente glissante</h2>
-
+						
 						<a href="assets/comics/comic2_page1.png" target="blank">
 							<picture>
 								<source srcset="assets/comics/comic2_page1-1080.webp">
@@ -161,7 +282,7 @@
 								<img src="assets/comics/comic2_page2-1080.png" class="figure-img img-fluid" alt="">
 							</picture>
 						</a>
-
+						
 						<div class="my-explanations">
 							<div class="clearfix">
 								<div class="my-words">
@@ -240,31 +361,31 @@
 							</div>
 						</div>
 					</section>
-
+					
 					<hr>
-
+					
 					<section id="comic3">
 						<h2>Episode 3 - [Coming soon !]</h2>
-
+						
 						<figure class="figure">
 							<img src="https://placehold.co/600x1000" class="img-fluid" alt="">
 						</figure>
-
+						
 						<div class="my-explanations">
 							<div class="my-words">
 								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ullam, nihil ratione adipisci dolorum repellendus perspiciatis beatae laboriosam nemo necessitatibus similique, repudiandae maiores. Provident rerum a, nobis temporibus saepe distinctio.</p>
 							</div>
 						</div>
-
+						
 						<a href="https://github.com/ninivert/abradatabra">Source code</a>
 					</section>
 				</section>
-
+				
 				<hr>
-
+				
 				<section id="refs">
 					<h2>References</h2>
-	
+					
 					<div class="csl-bib-body" style="line-height: 2; padding-left: 1em; text-indent:-1em;">
 						<div class="csl-entry" id="Bertin_1977">Bertin, J. (1977). <i>La graphique et le traitement graphique de l&#x2019;information</i>. Flammarion.</div>
 						<div class="csl-entry" id="Cairo_2019">Cairo, A. (2019). <i>How charts lie: getting smarter about visual information</i> (First edition). W. W. Norton &amp; Company.</div>
@@ -275,9 +396,9 @@
 						<div class="csl-entry" id="Tufte_2007">Tufte, E. (2007). <i>The Visual Display of quantitative Information</i> (2nd ed.). Graphics Press.</div>
 					</div>
 				</section>
-
+				
 				<hr>
-
+				
 				<footer id="links">
 					<div class="d-flex justify-content-around">
 						<a href="https://github.com/ninivert/abradatabra">
