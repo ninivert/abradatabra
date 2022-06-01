@@ -426,8 +426,8 @@
 
 							<div class="clearfix">
 								<div class="my-words">
-									<p>Si la tendance à la hausse dans l’étude peut être convaincante, le graphique ne suffit pas pour affirmer que la potion est à l’origine du gain de performance. Peut-être que les participant.e.s étaient déshydraté.e.s, et c’est l’eau dans la potion qui leur aurait permis de courir plus vite ; ou bien c’est le pic glycémique dû au sucre dans la potion. Une autre possibilité est que les participant.e.s étaient tellement convaincu.e.s de l’avantage qu’aurait la potion, qu’inconsciemment iels fournissent plus d’efforts en sachant l’avoir bue. Ce phénomène est communément appelé l'effet placébo.</p>
-									<p>Pour isoler ces variables, Hugues propose faire une étude randomisée en double aveugle. En donnant au hasard de l’eau sucrée ou de la potion aux participant.e.s, sans qu’iels sachent laquelle des deux iels reçoivent. De cette manière, on limite l’effet placébo. De plus, on s’assure en comparant la performance des deux groupes que l’effet est bien dû à la potion même, et pas dû à l’eau ou le sucre qu’elle contient.</p>
+									<p>Si la tendance à la hausse dans l’étude peut être convaincante, le graphique ne suffit pas pour affirmer que la potion est à l’origine du gain de performance. Peut-être que les participant.e.s étaient déshydraté.e.s, et c’est l’eau dans la potion qui leur aurait permis de courir plus vite ; ou bien c’est le pic glycémique dû au sucre dans la potion. Une autre possibilité est que les participant.e.s étaient tellement convaincu.e.s de l’avantage qu’aurait la potion, qu’inconsciemment iels fournissent plus d’efforts en sachant l’avoir bue. Ce phénomène est communément appelé l'effet placebo.</p>
+									<p>Pour isoler ces variables, Hugues propose faire une étude randomisée en double aveugle. En donnant au hasard de l’eau sucrée ou de la potion aux participant.e.s, sans qu’iels sachent laquelle des deux iels reçoivent. De cette manière, on limite l’effet placebo. De plus, on s’assure en comparant la performance des deux groupes que l’effet est bien dû à la potion même, et pas dû à l’eau ou le sucre qu’elle contient.</p>
 								</div>
 							</div>
 
@@ -449,7 +449,7 @@
 								</figure>
 								<div class="my-words">
 									<p>Le but final de cette étude est d’estimer la performance moyenne attendue en ayant du de la potion, et la comparer à celle de l’eau sucrée. On essaye en d’autres mots d’estimer les moyennes de chacune des deux distributions, que l’on échantillonne expérimentalement. Si la potion n’a pas d’effet (c’est l’hypothèse nulle), alors les distributions et les moyennes associées sont identiques.</p>
-									<p>Ce que présente la sorcière est alors la moyenne empirique, obtenue à partir des échantillons. Or il faut prendre en compte dans cette estimation une certaine incertitude, dûe au fait que les échantillons ne sont pas tous identiques, et sont chacun plus ou moins loin de la moyenne théorique. Cet écart à la moyenne est quantifié par la variance de la distribution.</p>
+									<p>Ce que présente la sorcière est alors la moyenne empirique, obtenue à partir des échantillons. Or il faut prendre en compte dans cette estimation une certaine incertitude, due au fait que les échantillons ne sont pas tous identiques, et sont chacun plus ou moins loin de la moyenne théorique. Cet écart à la moyenne est quantifié par la variance de la distribution.</p>
 									<p>Intuitivement, on imagine que plus la variance de la distribution est grande (c’est-à-dire les échantillons sont loin de la moyenne), plus il y aura d’incertitude sur la l’estimation. Et inversement, plus on récolte d’échantillons, meilleure elle sera.</p>
 									<p>Raymonde a alors observé que les échantillons ont une grande variabilité, et que cette variance est trop grande par rapport à la différence des deux moyennes estimées : impossible donc de dire si les deux distributions ont la même moyenne.</p>
 									<p>Pour pouvoir conclure, il faut donc diminuer l’incertitude sur les estimations de moyenne ; et comme on ne contrôle pas la variance des distributions, c’est donc le nombre d’échantillons qu’il faut augmenter.</p>
@@ -469,7 +469,7 @@
 										<source srcset="assets/figures/comic3/data2-400.webp">
 										<img src="assets/figures/comic3/data2-400.png" class="figure-img img-fluid">
 									</picture>
-									<figcaption class="figure-caption">La même expérience répétée avec 200 points de donées.</figcaption>
+									<figcaption class="figure-caption">La même expérience répétée avec 200 points de données.</figcaption>
 								</figure>
 								<div class="my-words">
 									<p>Mettons tout cela en application, et voyons comment les données ont été générées pour la planche :</p>
@@ -477,7 +477,7 @@
 										<li>On définit la distribution des performances comme log-normale, de moyenne μ=2 et écart-type σ=1. La distribution est identique pour l’eau sucrée et la potion, donc ici on sait que la potion n’a pas d’effet. Notons que expérimentalement on n’a pas accès à ces paramètres !</li>
 										<li>On échantillonne cette distribution, dix fois pour chacun des deux groupes; le groupe contrôle, à qui on a donné de l'eau sucrée, et le groupe test, qui a reçu de la potion. On obtient les résultats suivants. Notons que le diagramme en bandes est peu efficace en termes de densité d’informations, puisqu’il ne montre que la moyenne estimée et l’écart-type des échantillons, sans montrer les données brutes.</li>
 										<li>On calcule l’estimation de la moyenne (voir détails techniques) et l’incertitude. Pour les groupe contrôle, on trouve μ≈1.7±0.2, et pour le groupe test μ≈2.2±0.3.</li>
-										<li>Si on s’en fie aux valeurs nominales, on pourrait penser que la potion fonctionne, et mène à des meilleures performances ! Or ces résultats sont dûs purement à la chance, puisque les deux groupes sont échantillonnés à partir de la même distribution. Avec un si petit échantillon, les fluctuations aléatoires jouent un grand rôle, et il faut prêter attention aux incertitudes.<br>Voici la même expérience, répétée avec N=200 échantillons par groupe (avec des traits au lieu de croix, pour améliorer la lisibilité).</li>
+										<li>Si on s’en fie aux valeurs nominales, on pourrait penser que la potion fonctionne, et mène à des meilleures performances ! Or ces résultats sont dus purement à la chance, puisque les deux groupes sont échantillonnés à partir de la même distribution. Avec un si petit échantillon, les fluctuations aléatoires jouent un grand rôle, et il faut prêter attention aux incertitudes.<br>Voici la même expérience, répétée avec N=200 échantillons par groupe (avec des traits au lieu de croix, pour améliorer la lisibilité).</li>
 									</ol>
 								</div>
 							</div>
