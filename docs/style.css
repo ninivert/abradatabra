@@ -26,6 +26,7 @@ aside {
 	.my-fig {
 		margin-left: 1em;
 		float: right !important;
+		clear: right;
 	}
 }
 
