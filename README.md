@@ -8,6 +8,7 @@ EPFL news article : [EN](https://news.epfl.ch/news/do-we-have-an-unhealthy-appet
 
 - `docs/` : website source
 - `graphs/comic*` : source code for the graphs seen in the comics, as well a some figures
+- `biblio.bib` : bibliography in bibtex format
 
 ## Licensing
 
