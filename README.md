@@ -4,6 +4,8 @@ Source code for the graphs published in the datavis comic Abradatabra : https://
 
 EPFL news article : [EN](https://news.epfl.ch/news/do-we-have-an-unhealthy-appetite-for-pie-charts/), [FR](https://actu.epfl.ch/news/faut-il-abandonner-le-camembert-dans-les-presentat/)
 
+Infoscience entry : [https://infoscience.epfl.ch/record/298863](https://infoscience.epfl.ch/record/298863)
+
 ## Repository structure
 
 - `docs/` : website source
@@ -12,6 +14,6 @@ EPFL news article : [EN](https://news.epfl.ch/news/do-we-have-an-unhealthy-appet
 
 ## Licensing
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+This website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA). Illustrations par: Moulin, B. Projet réalisé dans le cadre du cours: Les données en contexte-Critical Data Studies donné par Delgado Pamela, Krichane Selim, Mazel-Cabasse Charlotte ; cours conjoint entre l’Université de Lausanne (UNIL) et l’EPFL, 2021-2022
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
